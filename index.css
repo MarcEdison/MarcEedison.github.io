@@ -1,87 +1,60 @@
-/* Reset some default styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+header .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+/* About Section */
+#about {
+    background-color: #f7f7f7;
+}
+
+#about h1 {
+    font-size: 3.5rem;
     color: #333;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+#about p {
+    font-size: 1.25rem;
+    color: #666;
 }
 
-nav ul {
-    list-style: none;
+/* Project Cards */
+.project-card {
+    border-radius: 15px;
+    background: #ffffff;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.project-card h3 {
+    color: #333;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.project-card p {
+    color: #555;
 }
 
-section {
-    padding: 2rem;
-    text-align: center;
+/* Contact Form */
+#contact form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
 }
 
-#about {
-    background-color: #fff;
+#contact form button {
+    border-radius: 8px;
 }
 
-#projects {
-    background-color: #f0f0f0;
-}
-
-.project {
-    margin: 2rem 0;
-    padding: 1rem;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#contact form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#contact input, #contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
+/* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
 }
